@@ -1,0 +1,178 @@
+/* public/css/style.css */
+
+/* Existing reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Footer styles */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center; /* Center text */
+    position: relative; /* Optional: for positioning */
+    bottom: 0;
+    width: 100%; /* Make sure it spans full width */
+}
+
+footer nav ul {
+    margin-top: 10px; /* Space between footer text and nav */
+}
+
+footer nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+footer nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer nav ul li a:hover {
+    text-decoration: underline;
+}
+/* public/css/style.css */
+
+/* Existing reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Footer styles */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center; /* Center text */
+    position: relative; /* Optional: for positioning */
+    bottom: 0;
+    width: 100%; /* Make sure it spans full width */
+}
+
+footer nav ul {
+    margin-top: 10px; /* Space between footer text and nav */
+}
+
+footer nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+footer nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.carousel {
+    padding: 10px; /* Add padding around the carousel */
+}
+
+.carousel-item img {
+    height: 600px; /* Set a fixed height for carousel images */
+    object-fit: cover; /* Maintain aspect ratio while covering the area */
+}
+
+/* Popular section styles */
+.popular-section {
+    padding: 20px; /* Add padding to the section */
+    background-color: #f8f9fa; /* Light background for contrast */
+}
+
+.popular-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.btn-group {
+    display: flex;
+    justify-content: center; /* Center the buttons */
+    margin-bottom: 20px; /* Space below the buttons */
+}
+
+.btn-group .btn {
+    margin: 0 5px; /* Add horizontal margin to each button */
+}
+
+.card {
+    margin: 10px; /* Space between cards */
+}
+
+.btn-custom {
+    background-color: #D7282F;
+    color: white;
+    border: none; /* Optional: Remove border */
+}
+
+.btn-custom:hover {
+    background-color: #C51E2C; /* Optional: Darker shade on hover */
+}
